@@ -1,0 +1,76 @@
+# Build directories
+build/
+Build/
+build-*/
+out/
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+!CMakeLists.txt
+
+# Compiled Object files
+*.o
+*.obj
+*.lo
+*.slo
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.a
+*.lib
+*.la
+
+# Executables
+*.exe
+*.out
+*.app
+biomesh_app
+biomesh_tests
+
+# IDE files
+.vscode/
+.vs/
+*.vcxproj*
+*.sln
+*.suo
+*.user
+.idea/
+*.iml
+
+# Test output files
+*.msh
+*.crd
+*.ele
+*.vtk
+*.vtu
+*.vtp
+
+# Temporary files
+*.tmp
+*.temp
+*~
+.DS_Store
+*.swp
+*.swo
+
+# Debug files
+*.dSYM/
+*.pdb
+*.ilk
+
+# Package managers
+conan.lock
+conandata.yml
+conanfile.py
+vcpkg_installed/
+
+# Other
+*.log
