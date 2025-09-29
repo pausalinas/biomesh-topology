@@ -45,13 +45,17 @@ biomesh_tests
 .idea/
 *.iml
 
-# Test output files
+# Test output files (but not example input files)
+biomesh_output.*
+output.*
+test_*.*
 *.msh
 *.crd
 *.ele
 *.vtk
 *.vtu
 *.vtp
+!examples/*.pdb
 
 # Temporary files
 *.tmp
